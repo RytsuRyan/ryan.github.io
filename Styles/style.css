@@ -1,0 +1,70 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #222;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Seções */
+section {
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #0066cc;
+}
+
+/* Lista de projetos */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Contato */
+section p {
+    margin-bottom: 8px;
+}
